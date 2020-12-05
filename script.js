@@ -25,7 +25,7 @@ const questions = [
         time: 0
     },
    {
-        question: "Given y=5 in the following use of the % operater x = 10 % 3 then which is true for x",
+        question: "Given y=10 in the following use of the % operater x = y % 3 then which is true for x",
         choices: ["x = 0", "x = 1", "x = 2", "x = 3"],
         answer: "x = 1",
         userAnswer: "x = 1",
