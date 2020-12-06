@@ -22,16 +22,16 @@ There are 5 questions and the user has 75s in which to answer the questions. The
 ## Some Screenshots
 
 1. ### Start screen
-  * ![Image of Character type Prompt](https://github.com/AdrianMEvans/Password-Generator/blob/main/assets/images/Screengrab-Char-Type-Prompt.jpg?raw=true)
+  * ![Image of Start screen](https://github.com/AdrianMEvans/JS_Code_Quiz/blob/main/assets/Kwiz_Start.jpg?raw=true)
 2. ### Questions screen
-  * ![Image of Character Length Prompt](https://github.com/AdrianMEvans/Password-Generator/blob/main/assets/images/Screengrab-charLength-prompt.jpg?raw=true)
+  * ![Image of Questions screen](https://github.com/AdrianMEvans/JS_Code_Quiz/blob/main/assets/Kwiz_Questions.jpg?raw=true)
 3. ### Game is Over screen 
-  * ![Image of Incorrect Character Length Alert](https://github.com/AdrianMEvans/Password-Generator/blob/main/assets/images/Screengrab-incorrect-charlength-alert.jpg?raw=true)
+  * ![Image of Game is Over screen](https://github.com/AdrianMEvans/JS_Code_Quiz/blob/main/assets/Kwiz_Game_Over.jpg?raw=true)
 4. ### Record of Scores screen
-  * ![Image of created Password](https://github.com/AdrianMEvans/Password-Generator/blob/main/assets/images/Screengrab-newPassword.jpg?raw=true)
+  * ![Image of Screen with Scores](https://github.com/AdrianMEvans/JS_Code_Quiz/blob/main/assets/Kwiz_Recording_of_Scores.jpg?raw=true)
 
 ## Conclusion
-Please have a look at **[The Password Factory](https://adrianmevans.github.io/Password-Generator/)** and let me know if there are any questions. I welcome constructive critisism. If you have any suggestions or notice any problems please contact me via the details below.
+Please have a look at **[The Kwiz](https://adrianmevans.github.io/JS_Code_Quiz/)** and let me know if there are any questions. I welcome constructive critisism. If you have any suggestions or notice any problems please contact me via the details below.
 
 :bellhop_bell: 
 Contact | Mobile | E-mail
