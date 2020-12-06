@@ -109,7 +109,7 @@ function showQuestion() {
     for(let i=0; i < questions[currentQuestion].choices.length; i++){
 
         answerElement = document.createElement("button");
-        answerElement.setAttribute("class", "btn btn-info m-1");
+        answerElement.setAttribute("class", "btn btn-info btn-block m-1");
         answerElement.innerHTML = questions[currentQuestion].choices[i];
         createRow(1, answerElement)
 
@@ -172,7 +172,7 @@ function renderEndGame() {
     containerElement.innerHTML = "";
     // Game is Over Notification
     const endGameMessageElement = document.createElement('div');
-    endGameMessageElement.setAttribute('class', 'display-3');
+    endGameMessageElement.setAttribute('class', 'myClassRed');
     endGameMessageElement.innerText = "Game is Over!";
     // Let user know what their score is
     const userScoreMessageElement = document.createElement('h4');
@@ -180,7 +180,7 @@ function renderEndGame() {
     endGameMessageElement.append(userScoreMessageElement);
     // Request user input 
     const initialMessageElement = document.createElement('div');
-    initialMessageElement.setAttribute('class', 'user-input');
+    initialMessageElement.setAttribute('class', 'myClassBlue');
     initialMessageElement.innerHTML = "Enter your name here: <input type='text' id='initial-input'></input>"
     endGameMessageElement.append(initialMessageElement);
     // Submit score button that will also be used to creat event Listener to generate highscores record
@@ -227,20 +227,20 @@ function handleHighscore(highscores) {
     highscoreContainerElement.append(highscoreTitleElement);
     for (let i=0; i < highscores.length; i++){
         let highscoreDisplayElement = document.createElement('div');
-        highscoreDisplayElement.setAttribute('class','m-1 bg-info text-white p-1')
+        highscoreDisplayElement.setAttribute('class','m-1 bg-secondary text-white p-1')
         highscoreDisplayElement.innerText = (i+1)+". "+highscores[i].initial+" - "+highscores[i].score;
         highscoreContainerElement.append(highscoreDisplayElement);
     }
     // Buttons to Restart Quiz or Clear Record of Highscores and appending the Highscore elements to make them visible
     restartBtnElement = document.createElement('button');
-    restartBtnElement.setAttribute('class', 'btn btn-light m-1');
+    restartBtnElement.setAttribute('class', 'btn btn-light btn-block m-1');
     restartBtnElement.innerText = 'Restart The Kwiz';
     highscoreContainerElement.append(restartBtnElement);
     restartBtnElement.addEventListener('click', function(){
         document.location.reload()
     });
     clearScoresBtnElement = document.createElement('button');
-    clearScoresBtnElement.setAttribute('class', 'btn btn-dark m-1');
+    clearScoresBtnElement.setAttribute('class', 'btn btn-dark btn-block m-1');
     clearScoresBtnElement.innerText = 'Clear Highscores';
     highscoreContainerElement.append(clearScoresBtnElement);
     clearScoresBtnElement.addEventListener('click', function(){
