@@ -1,35 +1,33 @@
 # The Kwiz
-JS Code Timed Quiz
-
-# The Password Factory
 
 ## About
-**The Password Factory** is a webpage that is designed to generate a password based on user specified criteria.
+**The Kwiz** is a webpage that is designed to test your knowledge of JS Scripts and creating dynamic webpages using JS.
 
-The user has to choose the following from a range of prompts:
+There are 5 questions and the user has 75s in which to answer the questions. The process follows like this:
 
-1. Password Length (_must be between 8 and 128 characters_) 
-2. What types of characters should the password include:
-    * Lower Case Letters
-    * Upper Case Letters
-    * Numbers
-    * Symbols
+1. There is an opening page that explains the game and what is required. 
+2. Answers must be answered within the allocated time _75seconds_.
+3. For every answer that is incorrect the user is penalized by deducting 10 seconds from the remaining time.
+4. The answer is verified and the following will take place
+    * If the answer is correct and there is time left then the next questions is displayed
+    * If the answer is incorrect then a penalty of 10seconds are placed against the time and the next question is displayed
+5. If the time is = to 0 then the game ends.
+6. The final score is equal to the time left at the end of question 4.
+7. When the final question is answered or the time reaches 0 then the Game is Over message will be displayed. 
+8. At this point the user will be asked to enter his name. 
+9. Once submitted a list of all the scores from local storage will be displayed. 
+10. User has option to clear Record of Scores or Restart ***The Kwiz***.
 
-If the user inputs character length and confirms inlcuded characters then a password will be generated and written to the text area in the page. 
-
-If user length is not within parameters it will not run.
-
-If user does not confirm any character types then it will not run either. 
 
 ## Some Screenshots
 
-1. ### Character type Prompt
+1. ### Start screen
   * ![Image of Character type Prompt](https://github.com/AdrianMEvans/Password-Generator/blob/main/assets/images/Screengrab-Char-Type-Prompt.jpg?raw=true)
-2. ### Character Length Prompt 
+2. ### Questions screen
   * ![Image of Character Length Prompt](https://github.com/AdrianMEvans/Password-Generator/blob/main/assets/images/Screengrab-charLength-prompt.jpg?raw=true)
-3. ### Incorrect Character Length Alert 
+3. ### Game is Over screen 
   * ![Image of Incorrect Character Length Alert](https://github.com/AdrianMEvans/Password-Generator/blob/main/assets/images/Screengrab-incorrect-charlength-alert.jpg?raw=true)
-4. ### Created Password
+4. ### Record of Scores screen
   * ![Image of created Password](https://github.com/AdrianMEvans/Password-Generator/blob/main/assets/images/Screengrab-newPassword.jpg?raw=true)
 
 ## Conclusion
