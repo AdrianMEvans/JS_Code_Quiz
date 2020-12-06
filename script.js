@@ -44,6 +44,7 @@ const questions = [
   ];
 
 //   set initial variables
+function beginKwiz(){
 let time = 76;
 const penaltyTime = 10;
 let currentQuestion = 0;
@@ -250,3 +251,4 @@ function handleHighscore(highscores) {
 
 }
 }
+beginKwiz()
